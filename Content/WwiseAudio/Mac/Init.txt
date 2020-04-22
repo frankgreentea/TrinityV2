@@ -1,0 +1,76 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1182958561	Cutscene			\Default Work Unit\Cutscene	
+	1509588232	Path			\Default Work Unit\Path	
+	2782712965	Level			\Default Work Unit\Level	
+	3893417221	Weapon			\Default Work Unit\Weapon	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Cutscene			
+	980072546	Cut_08	Cutscene			
+	980072547	Cut_09	Cutscene			
+	980072552	Cut_02	Cutscene			
+	980072553	Cut_03	Cutscene			
+	980072555	Cut_01	Cutscene			
+	980072556	Cut_06	Cutscene			
+	980072557	Cut_07	Cutscene			
+	980072558	Cut_04	Cutscene			
+	980072559	Cut_05	Cutscene			
+	996850140	Cut_11	Cutscene			
+	996850141	Cut_10	Cutscene			
+	996850143	Cut_12	Cutscene			
+	1281810935	Start	Cutscene			
+	251412230	Show	Path			
+	736660908	Denied	Path			
+	748895195	None	Path			
+	748895195	None	Level			
+	1793176393	Level6_5	Level			
+	1793720948	Level3_5	Level			
+	2607556080	Menu	Level			
+	2678230333	LevelB	Level			
+	2678230374	Level9	Level			
+	2678230375	Level8	Level			
+	2678230376	Level7	Level			
+	2678230377	Level6	Level			
+	2678230378	Level5	Level			
+	2678230379	Level4	Level			
+	2678230380	Level3	Level			
+	2678230381	Level2	Level			
+	2678230382	Level1	Level			
+	2678230383	Level0	Level			
+	3135546394	Level10	Level			
+	3135546395	Level11	Level			
+	736660908	Denied	Weapon			
+	748895195	None	Weapon			
+	980603538	Red	Weapon			
+	2774173721	Yellow	Weapon			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1475758552	Music_Dock			\Default Work Unit\Music_Dock	
+	1761240301	Sound_Effects			\Default Work Unit\Sound_Effects	
+	3236148094	SlowMo			\Default Work Unit\SlowMo	
+	3991942870	Music			\Default Work Unit\Music	
+	4056684167	Master			\Default Work Unit\Master	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	93536380	Bornes			\Default Work Unit\Master Audio Bus\Sound Effects\Bornes	
+	805203703	Master Secondary Bus			\Default Work Unit\Master Secondary Bus	
+	978369850	Presence			\Default Work Unit\Master Audio Bus\Music\Presence	
+	978636652	Sound Effects			\Default Work Unit\Master Audio Bus\Sound Effects	
+	1069431850	Player			\Default Work Unit\Master Audio Bus\Sound Effects\Player	
+	1219968656	Prism			\Default Work Unit\Master Audio Bus\Sound Effects\Prism	
+	1551306167	UI			\Default Work Unit\Master Audio Bus\Sound Effects\UI	
+	1764819763	Platforms			\Default Work Unit\Master Audio Bus\Sound Effects\Platforms	
+	2993779648	Death_Wall			\Default Work Unit\Master Audio Bus\Sound Effects\Death_Wall	
+	3064974266	Special			\Default Work Unit\Master Audio Bus\Music\Special	
+	3161908922	Main			\Default Work Unit\Master Audio Bus\Music\Main	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	4076662605	Base_Reverb			\Default Work Unit\Master Audio Bus\Base_Reverb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1475758552	Music_Dock	Wwise Meter			
+	1675424737	Extreme_Limiting_1	Wwise Peak Limiter			
+	2949243095	Hall_Small_Bright	Wwise RoomVerb			
+

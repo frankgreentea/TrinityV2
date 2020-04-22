@@ -1,0 +1,553 @@
+Event	ID	Name			Wwise Object Path	Notes
+	123630976	Ramp_Stop			\Default Work Unit\Ramp_Stop	
+	256834516	Path_Show			\Default Work Unit\Path_Show	
+	344104913	Player_Shoot_Primary			\Default Work Unit\Player_Shoot_Primary	
+	502835106	UI_Exit			\Default Work Unit\UI_Exit	
+	508558783	UI_Press			\Default Work Unit\UI_Press	
+	631612969	Laser_Change			\Default Work Unit\Laser_Change	
+	640949982	Speed			\Default Work Unit\Speed	
+	647463975	Cut			\Default Work Unit\Cut	
+	700753484	Wall_Stop			\Default Work Unit\Wall_Stop	
+	1004700065	Prism_Patrol			\Default Work Unit\Prism_Patrol	
+	1028635762	Player_Spawn			\Default Work Unit\Player_Spawn	
+	1219048826	UI_Start			\Default Work Unit\UI_Start	
+	1234929548	Wall_Amb			\Default Work Unit\Wall_Amb	
+	1254938058	Trailer			\Default Work Unit\Trailer	
+	1281810935	Start			\Default Work Unit\Start	
+	1305133589	Player_Jump			\Default Work Unit\Player_Jump	
+	1385980987	Wall_Amb_Stop			\Default Work Unit\Wall_Amb_Stop	
+	1727424713	Presence_Stop			\Default Work Unit\Presence_Stop	
+	1804829725	Player_Shoot_Secondary			\Default Work Unit\Player_Shoot_Secondary	
+	1877847629	Door			\Default Work Unit\Door	
+	1963935088	Wall_Blue_Touch			\Default Work Unit\Wall_Blue_Touch	
+	2007479870	Laser_All			\Default Work Unit\Laser_All	
+	2059536599	Prism_Change			\Default Work Unit\Prism_Change	
+	2085246073	Player_Bounce			\Default Work Unit\Player_Bounce	
+	2108779961	Wall			\Default Work Unit\Wall	
+	2110514317	Ramp			\Default Work Unit\Ramp	
+	2118900976	UI_Hover			\Default Work Unit\UI_Hover	
+	2391028579	UI_Resume			\Default Work Unit\UI_Resume	
+	2394882678	Laser_Show			\Default Work Unit\Laser_Show	
+	2607556080	Menu			\Default Work Unit\Menu	
+	2628673819	Wall_Green_Through			\Default Work Unit\Wall_Green_Through	
+	2778086669	Player_Change			\Default Work Unit\Player_Change	
+	2792155208	UI_Pause			\Default Work Unit\UI_Pause	
+	2798353304	Borne_Change			\Default Work Unit\Borne_Change	
+	2867835716	Globe			\Default Work Unit\Globe	
+	2993779648	Death_Wall			\Default Work Unit\Death_Wall	
+	3111919288	Presence_01			\Default Work Unit\Presence_01	
+	3111919290	Presence_03			\Default Work Unit\Presence_03	
+	3111919291	Presence_02			\Default Work Unit\Presence_02	
+	3224997952	Trailer_End			\Default Work Unit\Trailer_End	
+	3236148094	SlowMo			\Default Work Unit\SlowMo	
+	3629196698	Player_Land			\Default Work Unit\Player_Land	
+	3663511027	Borne_Show			\Default Work Unit\Borne_Show	
+	3674859828	Weapon_Pickup			\Default Work Unit\Weapon_Pickup	
+	3725903807	Music_Start			\Default Work Unit\Music_Start	
+	3774273375	Prism_Stop			\Default Work Unit\Prism_Stop	
+	3873464667	Pyramid_Shoot			\Default Work Unit\Pyramid_Shoot	
+	4019462301	SlowMo_Stop			\Default Work Unit\SlowMo_Stop	
+	4054488944	Player_Shoot_Denied			\Default Work Unit\Player_Shoot_Denied	
+	4099743215	Death_Wall_Stop			\Default Work Unit\Death_Wall_Stop	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1219968656	Prism			\Default Work Unit\Prism	
+	1234929548	Wall_Amb			\Default Work Unit\Wall_Amb	
+	1877847629	Door			\Default Work Unit\Door	
+	2706359573	Borne			\Default Work Unit\Borne	
+	3674859828	Weapon_Pickup			\Default Work Unit\Weapon_Pickup	
+	3982605422	Laser			\Default Work Unit\Laser	
+
+Switch	ID	Name	Switch Group			Notes
+	980603538	Red	Prism			
+	1325827433	Blue	Prism			
+	1362796839	Orange	Prism			
+	2774173721	Yellow	Prism			
+	3178740632	White	Prism			
+	1325827433	Blue	Wall_Amb			
+	4147287986	Green	Wall_Amb			
+	906520831	Grab	Door			
+	1160234136	Normal	Door			
+	1878686274	Drop	Door			
+	930712164	Off	Borne			
+	1984090569	On_04	Borne			
+	1984090572	On_01	Borne			
+	1984090574	On_03	Borne			
+	1984090575	On_02	Borne			
+	980603538	Red	Weapon_Pickup			
+	1100754030	All	Weapon_Pickup			
+	1325827433	Blue	Weapon_Pickup			
+	1668749452	No	Weapon_Pickup			
+	2774173721	Yellow	Weapon_Pickup			
+	930712164	Off	Laser			
+	1651971902	On	Laser			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1182958561	Cutscene			\Default Work Unit\Cutscene	
+	1509588232	Path			\Default Work Unit\Path	
+	2782712965	Level			\Default Work Unit\Level	
+	3893417221	Weapon			\Default Work Unit\Weapon	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Cutscene			
+	980072546	Cut_08	Cutscene			
+	980072547	Cut_09	Cutscene			
+	980072552	Cut_02	Cutscene			
+	980072553	Cut_03	Cutscene			
+	980072555	Cut_01	Cutscene			
+	980072556	Cut_06	Cutscene			
+	980072557	Cut_07	Cutscene			
+	980072558	Cut_04	Cutscene			
+	980072559	Cut_05	Cutscene			
+	996850140	Cut_11	Cutscene			
+	996850141	Cut_10	Cutscene			
+	996850143	Cut_12	Cutscene			
+	1281810935	Start	Cutscene			
+	251412230	Show	Path			
+	736660908	Denied	Path			
+	748895195	None	Path			
+	748895195	None	Level			
+	1793176393	Level6_5	Level			
+	1793720948	Level3_5	Level			
+	2607556080	Menu	Level			
+	2678230333	LevelB	Level			
+	2678230374	Level9	Level			
+	2678230375	Level8	Level			
+	2678230376	Level7	Level			
+	2678230377	Level6	Level			
+	2678230378	Level5	Level			
+	2678230379	Level4	Level			
+	2678230380	Level3	Level			
+	2678230381	Level2	Level			
+	2678230382	Level1	Level			
+	2678230383	Level0	Level			
+	3135546394	Level10	Level			
+	3135546395	Level11	Level			
+	736660908	Denied	Weapon			
+	748895195	None	Weapon			
+	980603538	Red	Weapon			
+	2774173721	Yellow	Weapon			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	797712787	Pyramid			\Default Work Unit\Pyramid	
+	2993779648	Death_Wall			\Default Work Unit\Death_Wall	
+
+Modulator LFO	ID	Name			Wwise Object Path	Notes
+	37269142	Death_Wall_Pitch_Attack			\Default Work Unit\Death_Wall_Pitch_Attack	
+	39961278	Door_Close_Moderate_Low			\Default Work Unit\Door_Close_Moderate_Low	
+	110620517	Door_Close_Moderate_Volume			\Default Work Unit\Door_Close_Moderate_Volume	
+	247185316	Borne_Pitch_LFO			\Default Work Unit\Borne_Pitch_LFO	
+	446381650	Level0_Pitch_01			\Default Work Unit\Level0_Pitch_01	
+	526523457	Borne_Switch_LFO			\Default Work Unit\Borne_Switch_LFO	
+	530999071	Hum_LFO			\Default Work Unit\Hum_LFO	
+	542984199	Laser_Show_LFO			\Default Work Unit\Laser_Show_LFO	
+	705572745	Pyramid_Rise_Volume			\Default Work Unit\Pyramid_Rise_Volume	
+	766324496	Level0_High			\Default Work Unit\Level0_High	
+	802263121	Wall_Blue_Amb_LFO			\Default Work Unit\Wall_Blue_Amb_LFO	
+
+Modulator Envelope	ID	Name			Wwise Object Path	Notes
+	6454156	UI_Start_Vol			\Default Work Unit\UI_Start_Vol	
+	54360864	Menu_Fade			\Default Work Unit\Menu_Fade	
+	113908850	Borne_Change_Volume			\Default Work Unit\Borne_Change_Volume	
+	123646333	Prism_Stop_Pitch			\Default Work Unit\Prism_Stop_Pitch	
+	134416466	Prism_Stop_Volume			\Default Work Unit\Prism_Stop_Volume	
+	165846199	Player_Land			\Default Work Unit\Player_Land	
+	193255808	Level0_Other_Volume			\Default Work Unit\Level0_Other_Volume	
+	236176261	Pyramid_Rise_Volume_ALL			\Default Work Unit\Pyramid_Rise_Volume_ALL	
+	256869443	UI_Exit_Wind_Volume			\Default Work Unit\UI_Exit_Wind_Volume	
+	267845330	Laser_Show_Volume			\Default Work Unit\Laser_Show_Volume	
+	301771061	UI_Press_Vol			\Default Work Unit\UI_Press_Vol	
+	329420744	Spawn_Volume			\Default Work Unit\Spawn_Volume	
+	339245979	Door_Normal_Volume			\Default Work Unit\Door_Normal_Volume	
+	355115656	Jump_Low			\Default Work Unit\Jump_Low	
+	383276263	Blue_Pitch			\Default Work Unit\Blue_Pitch	
+	408882435	Blue_High			\Default Work Unit\Blue_High	
+	414000446	UI_Press_Pitch			\Default Work Unit\UI_Press_Pitch	
+	418124883	Level0_Other_Pitch			\Default Work Unit\Level0_Other_Pitch	
+	434236793	Wall_Green_Through_Vol			\Default Work Unit\Wall_Green_Through_Vol	
+	476387219	Wall_Green_Through_Pitch			\Default Work Unit\Wall_Green_Through_Pitch	
+	495906590	Spawn_Lowpass			\Default Work Unit\Spawn_Lowpass	
+	519027387	Prism_Patrol_Volume			\Default Work Unit\Prism_Patrol_Volume	
+	523501340	UI_Exit_Volume			\Default Work Unit\UI_Exit_Volume	
+	553099905	Shoot_Attack_Pitch			\Default Work Unit\Shoot_Attack_Pitch	
+	559805737	Wall_Blue_Touch_Volume			\Default Work Unit\Wall_Blue_Touch_Volume	
+	565501881	UI_Start_Pitch			\Default Work Unit\UI_Start_Pitch	
+	572243109	Laser_Show_Volume_Base			\Default Work Unit\Laser_Show_Volume_Base	
+	592472943	Prism_Yellow_Pitch			\Default Work Unit\Prism_Yellow_Pitch	
+	598224784	Shoot_Attack_Volume			\Default Work Unit\Shoot_Attack_Volume	
+	600533655	Player_Denied_Vol			\Default Work Unit\Player_Denied_Vol	
+	679080552	Laser_Switch_Volume			\Default Work Unit\Laser_Switch_Volume	
+	777604167	Borne_Show_Volume			\Default Work Unit\Borne_Show_Volume	
+	805291298	Jump_Volume			\Default Work Unit\Jump_Volume	
+	811710400	Borne_show_Low			\Default Work Unit\Borne_show_Low	
+	815576821	Shoot_Hum_Vol			\Default Work Unit\Shoot_Hum_Vol	
+	825255530	Red_Pitch			\Default Work Unit\Red_Pitch	
+	866053456	UI_Hover			\Default Work Unit\UI_Hover	
+	910861915	Door_Close_Attack_Volume			\Default Work Unit\Door_Close_Attack_Volume	
+	918461137	Blue_Volume			\Default Work Unit\Blue_Volume	
+	997711616	Jump_Pitch			\Default Work Unit\Jump_Pitch	
+	1002000457	Door_Attack_Pitch			\Default Work Unit\Door_Attack_Pitch	
+	1017061125	UI_Exit_Wind_Pitch			\Default Work Unit\UI_Exit_Wind_Pitch	
+	1029283824	Borne_Switch_Volume			\Default Work Unit\Borne_Switch_Volume	
+	1030183995	Pyramid_Shoot_Volume			\Default Work Unit\Pyramid_Shoot_Volume	
+	1051850180	Player_Change_Volume			\Default Work Unit\Player_Change_Volume	
+	1057063474	Level6_Cut_05_Vol			\Default Work Unit\Level6_Cut_05_Vol	
+	1060874270	Laser_Off_Volume			\Default Work Unit\Laser_Off_Volume	
+
+Effect plug-ins	ID	Name	Type				Notes
+	365937933	Wwise Recorder (Custom)	Wwise Recorder			
+	484890516	Church_Small_Wood	Wwise RoomVerb			
+	819943492	Fear_no_Evil	Wwise Harmonizer			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	2292448	Shoot_Attack	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Shoot_Attack_8C947749.wem		\Actor-Mixer Hierarchy\Default Work Unit\Platforms\Pyramid\Pyramid_Rise\Level0_Base\Shoot_Attack		46416
+	3388691	Level1_Cut_01_A_Acc	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_A_Intense_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_A\Level1_Cut_01_A_Acc		609
+	8788302	SFX_Level7_Cut_06	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level7_Cut_06_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level7\Cut_06\SFX_Level7_Cut_06		23400
+	12004086	Shoot_Base	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Shoot_Base_8C947749.wem		\Actor-Mixer Hierarchy\Default Work Unit\Platforms\Pyramid\Pyramid_Rise\Shoot_Base		49396
+	14872120	Presence_02	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Presence_02_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Presence\Presence_02\Presence_02\Presence_02		7371
+	15383015	Level6_Cut_01_Mel	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level6_Cut_01_B_Mel_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level6\Cut_01\Level6_Cut_01_ALL\Level6_Cut_01_Mel		5089
+	17191163	Level6_Cut_01_Bass	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level6_Cut_01_C_Bass_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level6\Cut_01\Level6_Cut_01_ALL\Level6_Cut_01_Bass		5089
+	20904326	Level0_Cut_01_C	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level0_Cut_02_C_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level0\Cut_01-03\Level0_Cut_01_C\Level0_Cut_01_C		661
+	23961467	Level6_Cut_01_Bass	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level6_Cut_01_A_Bass_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level6\Cut_01\Level6_Cut_01_ALL\Level6_Cut_01_Bass		5073
+	25341118	Level1_Cut_01_B_Acc	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_C_Intense_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_C\Level1_Cut_01_B_Acc		609
+	31723632	SFX_Level4_Cut_03	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level4_Cut_03_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level4\Cut_03\SFX_Level4_Cut_03		162711
+	32660854	LevelB_Cut_02_Trans	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\LevelB_Cut_02_Trans_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\LevelB\LevelB_Cut_02_Trans\LevelB_Cut_02_Trans		4750
+	32707850	Level6_Cut_03_Intro	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level6_Cut_03_Intro_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level6\Cut_03\Level6_Cut_03_Intro\Level6_Cut_03_Intro		5016
+	37554034	SFX_Level10_Cut_10	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level10_Cut_10_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level10\Cut_10\SFX_Level10_Cut_10		31794
+	59442535	SFX_Level4_Cut_01	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level4_Cut_01_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level4\Cut_01\SFX_Level4_Cut_01		38415
+	63201437	Shoot_Attack	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Shoot_Attack_B1E6DA9B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Shoot_Denied\Shoot_Attack		46416
+	68482075	Level1_Cut_01_B_Trans	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_B_Horn_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_B\Level1_Cut_01_B_Trans		561
+	71122488	Level8_Cut_03_Intro	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level8_Cut_03_Intro_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level8\Cut_03\Level8_Cut_03_Intro\Level8_Cut_03_Intro		6340
+	77290132	SlowMo	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SlowMo_B1E6DA9B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\SlowMo\SlowMo		20650
+	77638610	SlowMo	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SlowMo_4DE5070E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\SlowMo_Stop\SlowMo		18207
+	98758564	Level2_Cut_01_Trans	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level2_Cut_01_Trans_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Level2_Cut_01_Trans\Level2_Cut_01_Trans		4682
+	102615250	Level3_Start_B	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level3_Start_B_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level3\Cut_01\Level3_Start_B\Level3_Start_B		4029
+	103111613	Level1_Cut_01_B_Melody	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_D_Bassoon_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_D\Level1_Cut_01_B_Melody		609
+	110042297	M_Menu_45BPM_12-8_Final_1M05P	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\M_Menu_45BPM_12-8_Final_1M05P_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Menu\M_Menu_45BPM_12-8_Final_1M05P\M_Menu_45BPM_12-8_Final_1M05P		481
+	115372605	Level1_Cut_01_B_Acc	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_C_Calm_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_C\Level1_Cut_01_B_Acc		609
+	118739972	Level3_Start_A	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level3_Start_A_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level3\Cut_01\Level3_Start_A\Level3_Start_A		5486
+	119130449	Level5_F_3M1P	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level5_F_3M1P_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level5\Start-10\Level5_F_3M1P\Level5_F_3M1P		557
+	120443361	SFX_Level9_Cut_06	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level9_Cut_06_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level9\Cut_06\SFX_Level9_Cut_06		142600
+	137230751	SFX_Level7_Cut_03	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level7_Cut_03_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level7\Cut_03\SFX_Level7_Cut_03		88844
+	153661799	Level6_Cut_01_Mel	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level6_Cut_01_E_Mel_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level6\Cut_01\Level6_Cut_01_ALL\Level6_Cut_01_Mel		5089
+	160848591	Level5_L_3M1P	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level5_L_3M1P_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level5\Start-10\Level5_L_3M1P\Level5_L_3M1P		565
+	163967491	SFX_Level8_Cut_01	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level8_Cut_01_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level8\Cut_01\SFX_Level8_Cut_01		118084
+	179105508	Trailer	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Trailer_2018-07-07_FINAL_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Trailer		1592706
+	179963127	Level1_Cut_01_B_Melody	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_B_Oboe_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_B\Level1_Cut_01_B_Melody		561
+	193680079	Level2_Cut_02_Trans	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level2_Cut_02_Trans_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Level2_Cut_02_Trans\Level2_Cut_02_Trans		457
+	195157382	Level7_Cut_01_Intro	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level7_Cut_01_Intro_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level7\Level7_Cut_01_Intro\Level7_Cut_01_Intro		353482
+	196036002	Level8_Cut_03_Loop	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level8_Cut_03_Loop_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level8\Cut_03\Level8_Cut_03_Loop\Level8_Cut_03_Loop		9973
+	199201332	Level3_Cut_01_Intro	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level3_Cut_01_Intro_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level3\Cut_01\Level3_Cut_01_Intro\Level3_Cut_01_Intro		565
+	201177590	Level5_N_5M1P	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level5_N_5M1P_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level5\Start-10\Level5_N_5M1P\Level5_N_5M1P		605
+	201330747	Level1_Cut_01_A_Melody	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_A_Oboe_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_A\Level1_Cut_01_A_Melody		609
+	202885059	Level9_Start_A	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level9_Start_A_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\LevelB\Cut_01-02\Level9_Start_A\Level9_Start_A		1065
+	207842265	Level3_Start_C	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level3_Start_C_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level3\Cut_01\Level3_Start_C\Level3_Start_C		4253
+	210299497	SFX_Level10_Cut_04	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level10_Cut_04_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level10\Cut_04\SFX_Level10_Cut_04		47477
+	211968339	Level0_Cut_01_B	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level0_Cut_02_B_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level0\Cut_01-03\Level0_Cut_01_B\Level0_Cut_01_B		561
+	214409851	Level5_B_3M1P	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level5_B_3M1P_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level5\Start-10\Level5_B_3M1P\Level5_B_3M1P		597
+	226714600	SFX_LevelB_Cut_03	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_LevelB_Cut_03_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\LevelB\Cut_03\SFX_LevelB_Cut_03		335438
+	231292169	Level4_Start_A	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level4_Start_A_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level4\Start-05\Level4_Start_A\Level4_Start_A		5963
+	233467524	Level0_Cut_03	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level0_Cut_03_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level0\Cut_04\Level0_Cut_03\Level0_Cut_03		5192
+	238945369	SFX_Level10_Cut_02	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level10_Cut_02_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level10\Cut_02\SFX_Level10_Cut_02		321120
+	251073490	Level0_Cut_Start_C	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level0_Cut_Start_C_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level0\Cut_04\Level0_Start_C\Level0_Cut_Start_C		661
+	254547556	Level3_Cut_08	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level3_Cut_08_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level3\Cut_07\Level3_Cut_08\Level3_Cut_08		4838
+	259783193	Level2_Cut_02_A2	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level2_Cut_02_A2_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Cut_03\Level2_Cut_02_A2\Level2_Cut_02_A2		433
+	261516344	SFX_Level9_Cut_02	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level9_Cut_02_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level9\Cut_02\SFX_Level9_Cut_02		20631
+	264664696	SFX_Level7_Cut_05	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level7_Cut_05_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level7\Cut_05\SFX_Level7_Cut_05		23240
+	276220954	SFX_Level0_Cut_04	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level0_Cut_04_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level0\Cut_04\SFX_Level0_Cut_04		695793
+	276851330	SFX_Level2_Cut_02	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level2_Cut_02_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level2\Cut_02\SFX_Level2_Cut_02		18370
+	284757261	Level5_A_2M1P	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level5_A_2M1P_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level5\Start-10\Level5_A_2M1P\Level5_A_2M1P		565
+	286882799	Level8_Cut_01	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level8_Cut_01_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level8\Cut_01\Level8_Cut_01\Level8_Cut_01		6948
+	287666225	Level2_Cut_03	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level2_Cut_03_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Cut_04\Level2_Cut_03\Level2_Cut_03		4734
+	287887244	Level9_Cut_05_17M1P	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level9_Cut_05_17M1P_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level9\Cut_05\Level9_Cut_05_17M1P\Level9_Cut_05_17M1P		861114
+	293487099	SFX_Level3_Cut_04	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level3_Cut_04_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level3\Cut_04\SFX_Level3_Cut_04		118382
+	296984341	Level1_Cut_01_B_Acc	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_B_Calm_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_B\Level1_Cut_01_B_Acc		561
+	298943903	Level9_Start_B	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level9_Start_B_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\LevelB\Cut_01-02\Level9_Start_B\Level9_Start_B		1033
+	311108176	SFX_Level10_Cut_07	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level10_Cut_07_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level10\Cut_07\SFX_Level10_Cut_07		262126
+	313451850	Level0_Cut_01_Intro	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level0_Cut_02_Intro_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level0\Level0_Cut_01_Intro\Level0_Cut_01_Intro		4535
+	314767189	Level0_Cut_Start_A	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level0_Cut_Start_A_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level0\Start\Level0_Start_A\Level0_Cut_Start_A		509
+	319523810	Level0_Cut_01_B	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level0_Cut_01_B_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level0\Cut_01-03\Level0_Cut_01_B\Level0_Cut_01_B		561
+	319561797	Presence_03	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Presence_03_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Presence\Presence_03\Presence_03\Presence_03		6645
+	322139027	SFX_Level5_Cut_09	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level5_Cut_09_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level5\Cut_09\SFX_Level5_Cut_09		19964
+	325767749	Level7_Cut_04	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level7_Cut_04_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level7\Cut_04\Level7_Cut_04\Level7_Cut_04		3297453
+	328529986	SFX_Level3_Cut_06	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level3_Cut_06_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level3\Cut_07\SFX_Level3_Cut_06		178678
+	335627803	Level2_Cut_01_Intro	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level2_Cut_01_Intro_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Cut_01-02\Level2_Cut_01_Intro\Level2_Cut_01_Intro		5169
+	335963345	Shoot_Attack	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Shoot_Attack_0ED39DC9.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level3_5\Start\Level0_Attack\Shoot_Attack		64810
+	337855807	SFX_Level8_Cut_02	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level8_Cut_02_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level8\Cut_02\SFX_Level8_Cut_02		412685
+	338034705	Level1_Cut_01_B_Melody	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_D_Oboe_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_D\Level1_Cut_01_B_Melody		609
+	345018052	Level1_Cut_01_B_Acc	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_D_Intense_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_D\Level1_Cut_01_B_Acc		609
+	351082267	SFX_Level3_Cut_05	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level3_Cut_05_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level3\Cut_05\SFX_Level3_Cut_05		116355
+	355014704	SFX_LevelB_Cut_01	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_LevelB_Cut_01_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\LevelB\Cut_01\SFX_LevelB_Cut_01		31326
+	360090533	Level5_E_4M	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level5_E_4M_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level5\Start-10\Level5_E_4M\Level5_E_4M		4552
+	370746184	Level2_Cut_02_D2	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level2_Cut_02_D2_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Cut_03\Level2_Cut_02_D2\Level2_Cut_02_D2		509
+	371621656	SFX_Level3_Cut_01	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level3_Cut_01_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level3\Cut_01\SFX_Level3_Cut_01		228687
+	372961091	Level9_Cut_01	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level9_Cut_01_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level9\Cut_01-04\Level9_Cut_01\Level9_Cut_01		730088
+	393516979	Level6_Cut_01_A_Acc	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level6_Cut_01_A_Acc_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level6\Cut_01\Level6_Cut_01_ALL\Level6_Cut_01_A_Acc		5066
+	400131954	SFX_Level5_Cut_01	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level5_Cut_01_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level5\Cut_01\SFX_Level5_Cut_01		12059
+	403651152	Shoot_Base	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Shoot_Base_B1E6DA9B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Borne\Path_Show\Path_Show\Borne_Show\Shoot_Base		49396
+	413907472	Level2_Cut_02_C2	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level2_Cut_02_C2_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Cut_03\Level2_Cut_02_C2\Level2_Cut_02_C2		421
+	436711759	Level4_Cut_06	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level4_Cut_06_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level4\Cut_06\Level4_Cut_06\Level4_Cut_06		4989
+	437289898	Level7_Cut_05	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level7_Cut_05_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level7\Cut_05\Level7_Cut_05\Level7_Cut_05		378502
+	443795121	SFX_Level2_Cut_01	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level2_Cut_01_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level2\Cut_01\SFX_Level2_Cut_01		193542
+	447358695	Level6_Cut_01_Bass	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level6_Cut_01_E_Bass_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level6\Cut_01\Level6_Cut_01_ALL\Level6_Cut_01_Bass		5085
+	449719496	Level1_Cut_01_B_Melody	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_C_Flute_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_C\Level1_Cut_01_B_Melody		609
+	461328216	Level1_Cut_01_B_Acc	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_B_Intense_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_B\Level1_Cut_01_B_Acc		561
+	464792862	SFX_Level0_Cut_01	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level0_Cut_01_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level0\Cut_01\SFX_Level0_Cut_01		122013
+	466148061	Level1_Cut_01_B_Acc	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_D_Calm_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_D\Level1_Cut_01_B_Acc		609
+	483038072	Level8_Start_B	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level8_Start_B_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level8\Cut_01\Level8_Start\Level8_Start_B		5850
+	487888917	SFX_LevelB_Cut_02	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_LevelB_Cut_02_51891C83.wem		\Actor-Mixer Hierarchy\Default Work Unit\Platforms\Wall\SFX_LevelB_Cut_02		5415
+	492419461	Level1_Cut_01_B_Trans	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_C_Horn_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_C\Level1_Cut_01_B_Trans		609
+	494662090	SFX_Level4_Cut_05	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level4_Cut_05_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level4\Cut_05\SFX_Level4_Cut_05		86747
+	496579357	Level0_Cut_02_Trans	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level0_Cut_02_Trans_27AD07F0.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level0\Cut_02\Level0_Cut_02_Trans		220018
+	497606216	SFX_Level3_Cut_03	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level3_Cut_03_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level3\Cut_03\SFX_Level3_Cut_03		118428
+	499193305	Level0_Cut_02_End	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level0_Cut_02_End_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\LevelB\Cut_05-06\Level0_Cut_02_End\Level0_Cut_02_End		4429
+	503638901	Level5_G_7M1P	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level5_G_7M1P_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level4\Cut_06\Level5_G_7M1P\Level5_G_7M1P		845
+	509488093	Level9_Start_C	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level9_Start_C_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\LevelB\Cut_01-02\Level9_Start_C\Level9_Start_C		1033
+	523012634	Level2_Cut_02_D1	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level2_Cut_02_D1_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Cut_03\Level2_Cut_02_D1\Level2_Cut_02_D1		533
+	540082287	Level0_Cut_01_A	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level0_Cut_02_A_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level0\Cut_01-03\Level0_Cut_01_A\Level0_Cut_01_A		509
+	543434762	Level6_Cut_01_Mel	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level6_Cut_01_D_Mel_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level6\Cut_01\Level6_Cut_01_ALL\Level6_Cut_01_Mel		5089
+	547117082	Level7_Cut_03	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level7_Cut_03_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level7\Cut_03\Level7_Cut_03\Level7_Cut_03		280807
+	550563959	Level3_5_Start_Intro	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level3_5_Start_Intro_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level3_5\Start\Level3_5_Start_Intro\Level3_5_Start_Intro		789
+	553458815	Level0_Cut_01_D	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level0_Cut_01_D_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level0\Cut_01-03\Level0_Cut_01_D\Level0_Cut_01_D		661
+	555741785	Level1_Cut_Start_Intro	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_Start_Intro_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Level1_Cut_01_Intro\Level1_Cut_Start_Intro		5495
+	559152753	Level5_M_3M1P	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level5_M_3M1P_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level5\Start-10\Level5_M_3M1P\Level5_M_3M1P		605
+	560556224	Level1_Cut_01_A_Acc	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_A_Calm_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Level1_Cut_01_Intro\Level1_Cut_01_A_Acc		609
+	564228816	SFX_Level6_Cut_05	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level6_Cut_05_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level6\Cut_05\SFX_Level6_Cut_05		24179
+	567434485	Level1_Cut_01_B_Melody	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_C_Bassoon_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_C\Level1_Cut_01_B_Melody		609
+	569967216	SFX_Level4_Cut_02	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level4_Cut_02_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level4\Cut_02\SFX_Level4_Cut_02		99037
+	576331421	Level0_Cut_Start_B	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level0_Cut_Start_B_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level0\Start\Level0_Start_B\Level0_Cut_Start_B		561
+	582630233	M_Menu_45BPM_12-8_A_18M	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\M_Menu_45BPM_12-8_A_18M_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Menu\M_Menu_45BPM_12-8_A_18M\M_Menu_45BPM_12-8_A_18M		5602
+	595503285	SFX_LevelB_Cut_04	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_LevelB_Cut_04_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\LevelB\Cut_04\SFX_LevelB_Cut_04		102180
+	598949463	Presence_01	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Presence_01_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Presence\Presence_01\Presence_01\Presence_01		6472
+	611788825	Level5_J_4M1P	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level5_J_4M1P_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level5\Start-10\Level5_J_4M1P\Level5_J_4M1P		565
+	631738938	Level2_Cut_02_A1	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level2_Cut_02_A1_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Cut_03\Level2_Cut_02_A1\Level2_Cut_02_A1		445
+	632844529	Level8_Cut_02	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level8_Cut_02_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level8\Cut_02\Level8_Cut_02\Level8_Cut_02		6454
+	632972443	Level7_Cut_06	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level7_Cut_06_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level7\Cut_06\Level7_Cut_06\Level7_Cut_06		612989
+	633341520	Level1_Cut_01_B_Melody	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_B_Flute_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_B\Level1_Cut_01_B_Melody		561
+	640833421	Level2_Cut_02_B1	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level2_Cut_02_B1_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Cut_03\Level2_Cut_02_B1\Level2_Cut_02_B1		445
+	641150679	Level9_Cut_09	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level9_Cut_09_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level9\Cut_09\Level9_Cut_09\Level9_Cut_09		309631
+	652841916	Level0_Cut_01_C	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level0_Cut_01_C_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level0\Cut_01-03\Level0_Cut_01_C\Level0_Cut_01_C		661
+	657195936	Level6_Cut_01_A_Acc	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level6_Cut_01_B_Acc_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level5\Cut_12\Level6_Cut_01_ALL\Level6_Cut_01_A_Acc		5088
+	663316183	Level3_Start_D	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level3_Start_D_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level3\Cut_01\Level3_Start_D\Level3_Start_D		4982
+	667017327	Level6_Cut_04_Loop	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level6_Cut_04_Loop_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level6\Cut_04\Level6_Cut_04_Loop\Level6_Cut_04_Loop		8482
+	676110530	SFX_Level4_Cut_04	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level4_Cut_04_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level3_5\Cut_01\SFX_Level4_Cut_04		86840
+	678714558	Level6_Cut_02_Loop	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level6_Cut_02_Loop_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level6\Cut_02\Level6_Cut_02_Loop\Level6_Cut_02_Loop		4504
+	678840842	Level6_Cut_01_A_Acc	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level6_Cut_01_C_Acc_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level6\Cut_01\Level6_Cut_01_ALL\Level6_Cut_01_A_Acc		5082
+	683369870	SFX_Level4_Cut_06	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level4_Cut_06_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level4\Cut_06\SFX_Level4_Cut_06		346341
+	684405551	Level5_H_3M	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level5_H_3M_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level5\Start-10\Level5_H_3M\Level5_H_3M		4576
+	685459533	Level6_Trans	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level6_Trans_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level6\Level6_Trans\Level6_Trans		4888
+	687448118	Level6_Cut_04_Intro	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level6_Cut_04_Intro_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level6\Cut_04\Level6_Cut_04_Intro\Level6_Cut_04_Intro		4541
+	698165119	Level6_Cut_01_Bass	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level6_Cut_01_B_Bass_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level6\Cut_01\Level6_Cut_01_ALL\Level6_Cut_01_Bass		5131
+	701340664	Level3_Cut_02_Intro	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level3_Cut_02_Intro_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level3\Transitions\Level3_Cut_02_Intro\Level3_Cut_02_Intro		6312
+	708804941	SFX_Level9_Cut_01	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level9_Cut_01_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level9\Cut_01\SFX_Level9_Cut_01		172872
+	713819222	SFX_Level8_Cut_03	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level8_Cut_03_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level8\Cut_03\SFX_Level8_Cut_03		7693
+	720717174	Level6_Cut_01_Mel	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level6_Cut_01_A_Mel_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level6\Cut_01\Level6_Cut_01_ALL\Level6_Cut_01_Mel		5073
+	740694377	Level0_Cut_01_Intro	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level0_Cut_01_Intro_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level0\Level0_Cut_01_Intro\Level0_Cut_01_Intro		4596
+	745432945	Level7_Cut_01_Loop	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level7_Cut_01_Loop_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level7\Cut_01\Level7_Cut_01_Loop\Level7_Cut_01_Loop		2979136
+	763777063	Level1_Cut_01_A_Melody	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_A_Flute_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_A\Level1_Cut_01_A_Melody		609
+	764528685	Level8_Start_A	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level8_Start_A_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level8\Cut_01\Level8_Start\Level8_Start_A		5623
+	770716694	Level1_Cut_01_B_Melody	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_B_Bassoon_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_B\Level1_Cut_01_B_Melody		561
+	773956454	Level0_Cut_01_D	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level0_Cut_02_D_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level0\Cut_01-03\Level0_Cut_01_D\Level0_Cut_01_D		661
+	776196051	SFX_Level5_Cut_12	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level5_Cut_12_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level5\Cut_12\SFX_Level5_Cut_12		231085
+	787157622	Level7_Cut_07	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level7_Cut_07_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level7\Cut_07\Level7_Cut_07\Level7_Cut_07		836947
+	790174438	SFX_Level1_Cut_02	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level1_Cut_02_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level1\Cut_02\SFX_Level1_Cut_02		108299
+	790606513	Level7_Cut_02_Loop	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level7_Cut_02_Loop_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level7\Cut_02\Level7_Cut_02_Loop\Level7_Cut_02_Loop		3338178
+	791217814	M_Menu_45BPM_12-8_Intro_4M	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\M_Menu_45BPM_12-8_Intro_4M_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Menu\M_Menu_45BPM_12-8_Intro_4M\M_Menu_45BPM_12-8_Intro_4M		4539
+	792034217	SFX_LevelB_Cut_07	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_LevelB_Cut_07_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\LevelB\Cut_07\SFX_LevelB_Cut_07		473502
+	797498694	Level0_Cut_02_Trans	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level0_Cut_02_Trans_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level0\Level0_Cut_02_Trans\Level0_Cut_02_Trans		4572
+	801225924	SFX_Level6_Cut_04	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level6_Cut_04_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level6\Cut_04\SFX_Level6_Cut_04		214032
+	806579512	SFX_Level6_Cut_02	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level6_Cut_02_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level6\Cut_02\SFX_Level6_Cut_02		346293
+	813000897	LevelB_Cut_01	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\LevelB_Cut_01_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\LevelB\Cut_01-02\LevelB_Cut_01\LevelB_Cut_01		4386
+	830802787	Level3_5_Start_A	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level3_5_Start_A_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level3_5\Start\Level3_5_Start_A\Level3_5_Start_A		4721
+	835969043	Level0_Cut_Start_D	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level0_Cut_Start_D_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level0\Cut_04\Level0_Start_D\Level0_Cut_Start_D		661
+	840557527	SFX_Level9_Cut_04	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level9_Cut_04_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level9\Cut_04\SFX_Level9_Cut_04		168817
+	848665484	LevelB_Cut_07	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\LevelB_Cut_07_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\LevelB\Cut_07\LevelB_Cut_07\LevelB_Cut_07		5291
+	852111387	Level1_Cut_01_B_Trans	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_D_Horn_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_D\Level1_Cut_01_B_Trans		609
+	854542802	Level9_Cut_07	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level9_Cut_07_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level9\Cut_07\Level9_Cut_07\Level9_Cut_07		1895648
+	861627733	Level1_Cut_01_A_Trans	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_A_Horn_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_A\Level1_Cut_01_A_Trans		609
+	864657273	Level5_I_4M1P	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level5_I_4M1P_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level5\Start-10\Level5_I_4M1P\Level5_I_4M1P		605
+	875227790	Level9_Cut_06_17M1P_Intro	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level9_Cut_06_17M1P_Intro_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level9\Cut_06\Level9_Cut_06_17M1P_Intro\Level9_Cut_06_17M1P_Intro		755660
+	882580430	Level5_K_6M1P	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level5_K_6M1P_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level5\Start-10\Level5_K_6M1P\Level5_K_6M1P		758
+	889053739	Level3_Cut_01_A	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level3_Cut_01_A_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level3\Cut_01\Level3_Cut_01_A\Level3_Cut_01_A		4544
+	890328104	SFX_Level5_Cut_08	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level5_Cut_08_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level5\Cut_08\SFX_Level5_Cut_08		20171
+	890773680	Level9_Cut_06_17M1P_Loop	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level9_Cut_06_17M1P_Loop_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level9\Cut_06\Level9_Cut_06_17M1P_Loop\Level9_Cut_06_17M1P_Loop		1448102
+	894856841	SFX_Level8_Cut_05	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level8_Cut_05_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level8\Cut_05\SFX_Level8_Cut_05		237270
+	896596049	Shoot_Base	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Shoot_Base_0ED39DC9.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level3_5\Start\Level0_Attack\Shoot_Base		61944
+	900864721	Level2_Cut_02_C1	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level2_Cut_02_C1_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Cut_03\Level2_Cut_02_C1\Level2_Cut_02_C1		469
+	906015370	SFX_LevelB_Cut_01	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_LevelB_Cut_02_9657EBDF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Platforms\Wall_Stop\SFX_LevelB_Cut_01		6706
+	922161297	SFX_Level10_Cut_01	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level10_Cut_01_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level10\Cut_01\SFX_Level10_Cut_01		458778
+	928137559	SFX_Level0_Cut_03	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level0_Cut_03_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level0\Cut_03\SFX_Level0_Cut_03		105064
+	928801562	SFX_Level2_Cut_04	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level2_Cut_04_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level2\Cut_04\SFX_Level2_Cut_04		187693
+	929462574	Level0_Cut_Start_Intro	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level0_Cut_Start_Intro_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level0\Level0_Cut_01_Intro\Level0_Cut_Start_Intro		4354
+	930512970	SFX_Level6_Cut_03	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level6_Cut_03_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level6\Cut_03\SFX_Level6_Cut_03		138863
+	938438922	Level6_Cut_01_Mel	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level6_Cut_01_C_Mel_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level6\Cut_01\Level6_Cut_01_ALL\Level6_Cut_01_Mel		5089
+	942703182	SFX_Level5_Cut_11	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level5_Cut_11_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level5\Cut_11\SFX_Level5_Cut_11		21305
+	943082129	SFX_Level10_Cut_03	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level10_Cut_03_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level10\Cut_03\SFX_Level10_Cut_03		126330
+	943463497	Level2_Cut_02_B2	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level2_Cut_02_B2_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Cut_03\Level2_Cut_02_B2\Level2_Cut_02_B2		413
+	946338884	Level0_Cut_01_A	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level0_Cut_01_A_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level0\Cut_01-03\Level0_Cut_01_A\Level0_Cut_01_A		509
+	952809900	Level7_Start_Loop	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level7_Start_Loop_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level6_5\Cut_01\Level7_Start_Loop\Level7_Start_Loop		405446
+	955308211	SFX_LevelB_Cut_02	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_LevelB_Cut_02_6D606E3E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Platforms\Door\General sound\SFX_LevelB_Cut_02		28377
+	958562770	Level5_D_3M1P	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level5_D_3M1P_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level5\Start-10\Level5_D_3M1P\Level5_D_3M1P		597
+	965242610	Level6_Cut_01_A_Acc	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level6_Cut_01_D_Acc_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level6\Cut_01\Level6_Cut_01_ALL\Level6_Cut_01_A_Acc		5082
+	965708890	Level6_Cut_03_Loop	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level6_Cut_03_Loop_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level6\Cut_03\Level6_Cut_03_Loop\Level6_Cut_03_Loop		5037
+	974653404	Level1_Cut_01_B_Melody	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_D_Flute_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_D\Level1_Cut_01_B_Melody		609
+	983082899	Level6_Cut_01_Bass	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level6_Cut_01_D_Bass_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level6\Cut_01\Level6_Cut_01_ALL\Level6_Cut_01_Bass		5085
+	990460273	Speed	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Speed_B1E6DA9B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Speed\Speed		80316
+	990821792	SFX_LevelB_Cut_02	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_LevelB_Cut_02_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\LevelB\Cut_02\SFX_LevelB_Cut_02		70757
+	994215545	Level6_Cut02_Intro	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level6_Cut02_Intro_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level6\Cut_02\Level6_Cut02_Intro\Level6_Cut02_Intro		4754
+	997975805	SFX_Level1_Cut_01	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\SFX_Level1_Cut_01_C47F2D1B.wem		\Actor-Mixer Hierarchy\Level_Specific\Cut\Level1\Cut_01\SFX_Level1_Cut_01		88708
+	1013064026	Level1_Cut_Start_Loop	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_Start_Loop_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Start\Level1_Cut_Start_Loop\Level1_Cut_Start_Loop		7303
+	1032844684	Level5_C_2M	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level5_C_2M_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level5\Start-10\Level5_C_2M\Level5_C_2M		4705
+	1046729257	Level1_Cut_01_B_Melody	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_C_Oboe_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_C\Level1_Cut_01_B_Melody		609
+	1064164852	Level1_Cut_01_A_Melody	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_A_Bassoon_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_A\Level1_Cut_01_A_Melody		609
+	1072458576	Level3_Start_E	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level3_Start_E_0ED39DC9.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level3\Cut_01\Level3_Start_E\Level3_Start_E		4794
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	3388691	Level1_Cut_01_A_Acc	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_A_Intense_0ED39DC9.wem	3388691.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_A\Level1_Cut_01_A_Acc	
+	14872120	Presence_02	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Presence_02_0ED39DC9.wem	14872120.wem	\Interactive Music Hierarchy\Default Work Unit\Presence\Presence_02\Presence_02\Presence_02	
+	15383015	Level6_Cut_01_Mel	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level6_Cut_01_B_Mel_0ED39DC9.wem	15383015.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level6\Cut_01\Level6_Cut_01_ALL\Level6_Cut_01_Mel	
+	17191163	Level6_Cut_01_Bass	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level6_Cut_01_C_Bass_0ED39DC9.wem	17191163.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level6\Cut_01\Level6_Cut_01_ALL\Level6_Cut_01_Bass	
+	20904326	Level0_Cut_01_C	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level0_Cut_02_C_0ED39DC9.wem	20904326.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level0\Cut_01-03\Level0_Cut_01_C\Level0_Cut_01_C	
+	23961467	Level6_Cut_01_Bass	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level6_Cut_01_A_Bass_0ED39DC9.wem	23961467.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level6\Cut_01\Level6_Cut_01_ALL\Level6_Cut_01_Bass	
+	25341118	Level1_Cut_01_B_Acc	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_C_Intense_0ED39DC9.wem	25341118.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_C\Level1_Cut_01_B_Acc	
+	32660854	LevelB_Cut_02_Trans	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\LevelB_Cut_02_Trans_0ED39DC9.wem	32660854.wem	\Interactive Music Hierarchy\Default Work Unit\Music\LevelB\LevelB_Cut_02_Trans\LevelB_Cut_02_Trans	
+	32707850	Level6_Cut_03_Intro	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level6_Cut_03_Intro_0ED39DC9.wem	32707850.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level6\Cut_03\Level6_Cut_03_Intro\Level6_Cut_03_Intro	
+	53132336	Level5_Cut_12	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level5_Cut_12_0ED39DC9.wem	53132336.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level5\Cut_12\Level5_Cut_12\Level5_Cut_12	
+	55231576	Level2_Start_B	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level2_Start_B_0ED39DC9.wem	55231576.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Cut_01-02\Level2_Start_B\Level2_Start_B	
+	68482075	Level1_Cut_01_B_Trans	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_B_Horn_0ED39DC9.wem	68482075.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_B\Level1_Cut_01_B_Trans	
+	71122488	Level8_Cut_03_Intro	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level8_Cut_03_Intro_0ED39DC9.wem	71122488.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level8\Cut_03\Level8_Cut_03_Intro\Level8_Cut_03_Intro	
+	98758564	Level2_Cut_01_Trans	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level2_Cut_01_Trans_0ED39DC9.wem	98758564.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Level2_Cut_01_Trans\Level2_Cut_01_Trans	
+	102615250	Level3_Start_B	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level3_Start_B_0ED39DC9.wem	102615250.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level3\Cut_01\Level3_Start_B\Level3_Start_B	
+	103111613	Level1_Cut_01_B_Melody	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_D_Bassoon_0ED39DC9.wem	103111613.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_D\Level1_Cut_01_B_Melody	
+	105045471	Level10_Cut_10	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level10_Cut_10_0ED39DC9.wem	105045471.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level10\Cut_10\Level10_Cut_10\Level10_Cut_10	
+	107969702	Level2_Start_D	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level2_Start_D_0ED39DC9.wem	107969702.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Cut_01-02\Level2_Start_D\Level2_Start_D	
+	110042297	M_Menu_45BPM_12-8_Final_1M05P	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\M_Menu_45BPM_12-8_Final_1M05P_0ED39DC9.wem	110042297.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Menu\M_Menu_45BPM_12-8_Final_1M05P\M_Menu_45BPM_12-8_Final_1M05P	
+	115372605	Level1_Cut_01_B_Acc	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_C_Calm_0ED39DC9.wem	115372605.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_C\Level1_Cut_01_B_Acc	
+	118739972	Level3_Start_A	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level3_Start_A_0ED39DC9.wem	118739972.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level3\Cut_01\Level3_Start_A\Level3_Start_A	
+	119130449	Level5_F_3M1P	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level5_F_3M1P_0ED39DC9.wem	119130449.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level5\Start-10\Level5_F_3M1P\Level5_F_3M1P	
+	153661799	Level6_Cut_01_Mel	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level6_Cut_01_E_Mel_0ED39DC9.wem	153661799.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level6\Cut_01\Level6_Cut_01_ALL\Level6_Cut_01_Mel	
+	159269106	Level4_Start_C	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level4_Start_C_0ED39DC9.wem	159269106.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level4\Start-05\Level4_Start_C\Level4_Start_C	
+	160848591	Level5_L_3M1P	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level5_L_3M1P_0ED39DC9.wem	160848591.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level5\Start-10\Level5_L_3M1P\Level5_L_3M1P	
+	179963127	Level1_Cut_01_B_Melody	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_B_Oboe_0ED39DC9.wem	179963127.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_B\Level1_Cut_01_B_Melody	
+	191609834	Level2_Start_C	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level2_Start_C_0ED39DC9.wem	191609834.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Cut_01-02\Level2_Start_C\Level2_Start_C	
+	193680079	Level2_Cut_02_Trans	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level2_Cut_02_Trans_0ED39DC9.wem	193680079.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Level2_Cut_02_Trans\Level2_Cut_02_Trans	
+	196036002	Level8_Cut_03_Loop	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level8_Cut_03_Loop_0ED39DC9.wem	196036002.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level8\Cut_03\Level8_Cut_03_Loop\Level8_Cut_03_Loop	
+	199201332	Level3_Cut_01_Intro	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level3_Cut_01_Intro_0ED39DC9.wem	199201332.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level3\Cut_01\Level3_Cut_01_Intro\Level3_Cut_01_Intro	
+	201177590	Level5_N_5M1P	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level5_N_5M1P_0ED39DC9.wem	201177590.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level5\Start-10\Level5_N_5M1P\Level5_N_5M1P	
+	201330747	Level1_Cut_01_A_Melody	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_A_Oboe_0ED39DC9.wem	201330747.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_A\Level1_Cut_01_A_Melody	
+	202885059	Level9_Start_A	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level9_Start_A_0ED39DC9.wem	202885059.wem	\Interactive Music Hierarchy\Default Work Unit\Music\LevelB\Cut_01-02\Level9_Start_A\Level9_Start_A	
+	203536411	Level2_Start_H	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level2_Start_H_0ED39DC9.wem	203536411.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Cut_01-02\Level2_Start_H\Level2_Start_H	
+	207842265	Level3_Start_C	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level3_Start_C_0ED39DC9.wem	207842265.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level3\Cut_01\Level3_Start_C\Level3_Start_C	
+	208844805	Level4_Start_B	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level4_Start_B_0ED39DC9.wem	208844805.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level4\Start-05\Level4_Start_B\Level4_Start_B	
+	211968339	Level0_Cut_01_B	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level0_Cut_02_B_0ED39DC9.wem	211968339.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level0\Cut_01-03\Level0_Cut_01_B\Level0_Cut_01_B	
+	214409851	Level5_B_3M1P	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level5_B_3M1P_0ED39DC9.wem	214409851.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level5\Start-10\Level5_B_3M1P\Level5_B_3M1P	
+	231292169	Level4_Start_A	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level4_Start_A_0ED39DC9.wem	231292169.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level4\Start-05\Level4_Start_A\Level4_Start_A	
+	233467524	Level0_Cut_03	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level0_Cut_03_0ED39DC9.wem	233467524.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level0\Cut_04\Level0_Cut_03\Level0_Cut_03	
+	251073490	Level0_Cut_Start_C	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level0_Cut_Start_C_0ED39DC9.wem	251073490.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level0\Cut_04\Level0_Start_C\Level0_Cut_Start_C	
+	254547556	Level3_Cut_08	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level3_Cut_08_0ED39DC9.wem	254547556.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level3\Cut_07\Level3_Cut_08\Level3_Cut_08	
+	259783193	Level2_Cut_02_A2	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level2_Cut_02_A2_0ED39DC9.wem	259783193.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Cut_03\Level2_Cut_02_A2\Level2_Cut_02_A2	
+	276022529	Level2_Cut_02_D1_SYNTH	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level2_Cut_02_D1_SYNTH_0ED39DC9.wem	276022529.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Cut_03\Level2_Cut_02_D1\Level2_Cut_02_D1_SYNTH	
+	284757261	Level5_A_2M1P	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level5_A_2M1P_0ED39DC9.wem	284757261.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level5\Start-10\Level5_A_2M1P\Level5_A_2M1P	
+	286882799	Level8_Cut_01	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level8_Cut_01_0ED39DC9.wem	286882799.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level8\Cut_01\Level8_Cut_01\Level8_Cut_01	
+	287666225	Level2_Cut_03	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level2_Cut_03_0ED39DC9.wem	287666225.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Cut_04\Level2_Cut_03\Level2_Cut_03	
+	296984341	Level1_Cut_01_B_Acc	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_B_Calm_0ED39DC9.wem	296984341.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_B\Level1_Cut_01_B_Acc	
+	297126718	Level2_Start_E	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level2_Start_E_0ED39DC9.wem	297126718.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Cut_04\Level2_Start_E\Level2_Start_E	
+	298943903	Level9_Start_B	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level9_Start_B_0ED39DC9.wem	298943903.wem	\Interactive Music Hierarchy\Default Work Unit\Music\LevelB\Cut_01-02\Level9_Start_B\Level9_Start_B	
+	313451850	Level0_Cut_01_Intro	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level0_Cut_02_Intro_0ED39DC9.wem	313451850.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level0\Level0_Cut_01_Intro\Level0_Cut_01_Intro	
+	314767189	Level0_Cut_Start_A	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level0_Cut_Start_A_0ED39DC9.wem	314767189.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level0\Start\Level0_Start_A\Level0_Cut_Start_A	
+	319523810	Level0_Cut_01_B	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level0_Cut_01_B_0ED39DC9.wem	319523810.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level0\Cut_01-03\Level0_Cut_01_B\Level0_Cut_01_B	
+	319561797	Presence_03	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Presence_03_0ED39DC9.wem	319561797.wem	\Interactive Music Hierarchy\Default Work Unit\Presence\Presence_03\Presence_03\Presence_03	
+	335627803	Level2_Cut_01_Intro	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level2_Cut_01_Intro_0ED39DC9.wem	335627803.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Cut_01-02\Level2_Cut_01_Intro\Level2_Cut_01_Intro	
+	338034705	Level1_Cut_01_B_Melody	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_D_Oboe_0ED39DC9.wem	338034705.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_D\Level1_Cut_01_B_Melody	
+	345018052	Level1_Cut_01_B_Acc	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_D_Intense_0ED39DC9.wem	345018052.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_D\Level1_Cut_01_B_Acc	
+	360090533	Level5_E_4M	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level5_E_4M_0ED39DC9.wem	360090533.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level5\Start-10\Level5_E_4M\Level5_E_4M	
+	370746184	Level2_Cut_02_D2	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level2_Cut_02_D2_0ED39DC9.wem	370746184.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Cut_03\Level2_Cut_02_D2\Level2_Cut_02_D2	
+	393516979	Level6_Cut_01_A_Acc	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level6_Cut_01_A_Acc_0ED39DC9.wem	393516979.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level6\Cut_01\Level6_Cut_01_ALL\Level6_Cut_01_A_Acc	
+	413907472	Level2_Cut_02_C2	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level2_Cut_02_C2_0ED39DC9.wem	413907472.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Cut_03\Level2_Cut_02_C2\Level2_Cut_02_C2	
+	436711759	Level4_Cut_06	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level4_Cut_06_0ED39DC9.wem	436711759.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level4\Cut_06\Level4_Cut_06\Level4_Cut_06	
+	437328779	Level2_Cut_02_D2_SYNTH	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level2_Cut_02_D2_SYNTH_0ED39DC9.wem	437328779.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Cut_03\Level2_Cut_02_D2\Level2_Cut_02_D2_SYNTH	
+	447358695	Level6_Cut_01_Bass	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level6_Cut_01_E_Bass_0ED39DC9.wem	447358695.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level6\Cut_01\Level6_Cut_01_ALL\Level6_Cut_01_Bass	
+	449719496	Level1_Cut_01_B_Melody	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_C_Flute_0ED39DC9.wem	449719496.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_C\Level1_Cut_01_B_Melody	
+	461328216	Level1_Cut_01_B_Acc	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_B_Intense_0ED39DC9.wem	461328216.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_B\Level1_Cut_01_B_Acc	
+	466148061	Level1_Cut_01_B_Acc	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_D_Calm_0ED39DC9.wem	466148061.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_D\Level1_Cut_01_B_Acc	
+	483038072	Level8_Start_B	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level8_Start_B_0ED39DC9.wem	483038072.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level8\Cut_01\Level8_Start\Level8_Start_B	
+	492419461	Level1_Cut_01_B_Trans	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_C_Horn_0ED39DC9.wem	492419461.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_C\Level1_Cut_01_B_Trans	
+	495281733	Level4_Start_F	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level4_Start_F_0ED39DC9.wem	495281733.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level4\Start-05\Level4_Start_F\Level4_Start_F	
+	497007115	Level4_Start_E	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level4_Start_E_0ED39DC9.wem	497007115.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level3_5\Cut_01\Level4_Start_E\Level4_Start_E	
+	499193305	Level0_Cut_02_End	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level0_Cut_02_End_0ED39DC9.wem	499193305.wem	\Interactive Music Hierarchy\Default Work Unit\Music\LevelB\Cut_05-06\Level0_Cut_02_End\Level0_Cut_02_End	
+	503638901	Level5_G_7M1P	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level5_G_7M1P_0ED39DC9.wem	503638901.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level4\Cut_06\Level5_G_7M1P\Level5_G_7M1P	
+	509488093	Level9_Start_C	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level9_Start_C_0ED39DC9.wem	509488093.wem	\Interactive Music Hierarchy\Default Work Unit\Music\LevelB\Cut_01-02\Level9_Start_C\Level9_Start_C	
+	519595305	Level2_Cut_02_C1_SYNTH	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level2_Cut_02_C1_SYNTH_0ED39DC9.wem	519595305.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Cut_03\Level2_Cut_02_C1\Level2_Cut_02_C1_SYNTH	
+	523012634	Level2_Cut_02_D1	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level2_Cut_02_D1_0ED39DC9.wem	523012634.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Cut_03\Level2_Cut_02_D1\Level2_Cut_02_D1	
+	540082287	Level0_Cut_01_A	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level0_Cut_02_A_0ED39DC9.wem	540082287.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level0\Cut_01-03\Level0_Cut_01_A\Level0_Cut_01_A	
+	543434762	Level6_Cut_01_Mel	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level6_Cut_01_D_Mel_0ED39DC9.wem	543434762.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level6\Cut_01\Level6_Cut_01_ALL\Level6_Cut_01_Mel	
+	550563959	Level3_5_Start_Intro	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level3_5_Start_Intro_0ED39DC9.wem	550563959.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level3_5\Start\Level3_5_Start_Intro\Level3_5_Start_Intro	
+	553458815	Level0_Cut_01_D	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level0_Cut_01_D_0ED39DC9.wem	553458815.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level0\Cut_01-03\Level0_Cut_01_D\Level0_Cut_01_D	
+	555741785	Level1_Cut_Start_Intro	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_Start_Intro_0ED39DC9.wem	555741785.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Level1_Cut_01_Intro\Level1_Cut_Start_Intro	
+	559152753	Level5_M_3M1P	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level5_M_3M1P_0ED39DC9.wem	559152753.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level5\Start-10\Level5_M_3M1P\Level5_M_3M1P	
+	560556224	Level1_Cut_01_A_Acc	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_A_Calm_0ED39DC9.wem	560556224.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Level1_Cut_01_Intro\Level1_Cut_01_A_Acc	
+	567434485	Level1_Cut_01_B_Melody	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_C_Bassoon_0ED39DC9.wem	567434485.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_C\Level1_Cut_01_B_Melody	
+	576331421	Level0_Cut_Start_B	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level0_Cut_Start_B_0ED39DC9.wem	576331421.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level0\Start\Level0_Start_B\Level0_Cut_Start_B	
+	579902435	Level2_Cut_02_B2_SYNTH	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level2_Cut_02_B2_SYNTH_0ED39DC9.wem	579902435.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Cut_03\Level2_Cut_02_B2\Level2_Cut_02_B2_SYNTH	
+	582630233	M_Menu_45BPM_12-8_A_18M	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\M_Menu_45BPM_12-8_A_18M_0ED39DC9.wem	582630233.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Menu\M_Menu_45BPM_12-8_A_18M\M_Menu_45BPM_12-8_A_18M	
+	598949463	Presence_01	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Presence_01_0ED39DC9.wem	598949463.wem	\Interactive Music Hierarchy\Default Work Unit\Presence\Presence_01\Presence_01\Presence_01	
+	611788825	Level5_J_4M1P	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level5_J_4M1P_0ED39DC9.wem	611788825.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level5\Start-10\Level5_J_4M1P\Level5_J_4M1P	
+	625882217	Level2_Cut_02_A2_SYNTH	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level2_Cut_02_A2_SYNTH_0ED39DC9.wem	625882217.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Cut_03\Level2_Cut_02_A2\Level2_Cut_02_A2_SYNTH	
+	631738938	Level2_Cut_02_A1	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level2_Cut_02_A1_0ED39DC9.wem	631738938.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Cut_03\Level2_Cut_02_A1\Level2_Cut_02_A1	
+	632844529	Level8_Cut_02	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level8_Cut_02_0ED39DC9.wem	632844529.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level8\Cut_02\Level8_Cut_02\Level8_Cut_02	
+	633341520	Level1_Cut_01_B_Melody	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_B_Flute_0ED39DC9.wem	633341520.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_B\Level1_Cut_01_B_Melody	
+	640833421	Level2_Cut_02_B1	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level2_Cut_02_B1_0ED39DC9.wem	640833421.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Cut_03\Level2_Cut_02_B1\Level2_Cut_02_B1	
+	652841916	Level0_Cut_01_C	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level0_Cut_01_C_0ED39DC9.wem	652841916.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level0\Cut_01-03\Level0_Cut_01_C\Level0_Cut_01_C	
+	657195936	Level6_Cut_01_A_Acc	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level6_Cut_01_B_Acc_0ED39DC9.wem	657195936.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level5\Cut_12\Level6_Cut_01_ALL\Level6_Cut_01_A_Acc	
+	659974354	Level2_Cut_02_C2_SYNTH	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level2_Cut_02_C2_SYNTH_0ED39DC9.wem	659974354.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Cut_03\Level2_Cut_02_C2\Level2_Cut_02_C2_SYNTH	
+	663316183	Level3_Start_D	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level3_Start_D_0ED39DC9.wem	663316183.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level3\Cut_01\Level3_Start_D\Level3_Start_D	
+	667017327	Level6_Cut_04_Loop	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level6_Cut_04_Loop_0ED39DC9.wem	667017327.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level6\Cut_04\Level6_Cut_04_Loop\Level6_Cut_04_Loop	
+	678714558	Level6_Cut_02_Loop	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level6_Cut_02_Loop_0ED39DC9.wem	678714558.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level6\Cut_02\Level6_Cut_02_Loop\Level6_Cut_02_Loop	
+	678840842	Level6_Cut_01_A_Acc	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level6_Cut_01_C_Acc_0ED39DC9.wem	678840842.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level6\Cut_01\Level6_Cut_01_ALL\Level6_Cut_01_A_Acc	
+	684405551	Level5_H_3M	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level5_H_3M_0ED39DC9.wem	684405551.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level5\Start-10\Level5_H_3M\Level5_H_3M	
+	685459533	Level6_Trans	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level6_Trans_0ED39DC9.wem	685459533.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level6\Level6_Trans\Level6_Trans	
+	687448118	Level6_Cut_04_Intro	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level6_Cut_04_Intro_0ED39DC9.wem	687448118.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level6\Cut_04\Level6_Cut_04_Intro\Level6_Cut_04_Intro	
+	698165119	Level6_Cut_01_Bass	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level6_Cut_01_B_Bass_0ED39DC9.wem	698165119.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level6\Cut_01\Level6_Cut_01_ALL\Level6_Cut_01_Bass	
+	701340664	Level3_Cut_02_Intro	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level3_Cut_02_Intro_0ED39DC9.wem	701340664.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level3\Transitions\Level3_Cut_02_Intro\Level3_Cut_02_Intro	
+	720717174	Level6_Cut_01_Mel	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level6_Cut_01_A_Mel_0ED39DC9.wem	720717174.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level6\Cut_01\Level6_Cut_01_ALL\Level6_Cut_01_Mel	
+	740694377	Level0_Cut_01_Intro	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level0_Cut_01_Intro_0ED39DC9.wem	740694377.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level0\Level0_Cut_01_Intro\Level0_Cut_01_Intro	
+	755204033	Level4_Start_G	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level4_Start_G_0ED39DC9.wem	755204033.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level4\Start-05\Level4_Start_G\Level4_Start_G	
+	760829685	Level4_Start_D	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level4_Start_D_0ED39DC9.wem	760829685.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level3_5\Cut_01\Level4_Start_D\Level4_Start_D	
+	761506542	Level10_Cut_02	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level10_Cut_02_0ED39DC9.wem	761506542.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level10\Cut_02-08\Level10_Cut_02\Level10_Cut_02	
+	763777063	Level1_Cut_01_A_Melody	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_A_Flute_0ED39DC9.wem	763777063.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_A\Level1_Cut_01_A_Melody	
+	764528685	Level8_Start_A	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level8_Start_A_0ED39DC9.wem	764528685.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level8\Cut_01\Level8_Start\Level8_Start_A	
+	770716694	Level1_Cut_01_B_Melody	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_B_Bassoon_0ED39DC9.wem	770716694.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_B\Level1_Cut_01_B_Melody	
+	773956454	Level0_Cut_01_D	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level0_Cut_02_D_0ED39DC9.wem	773956454.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level0\Cut_01-03\Level0_Cut_01_D\Level0_Cut_01_D	
+	791217814	M_Menu_45BPM_12-8_Intro_4M	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\M_Menu_45BPM_12-8_Intro_4M_0ED39DC9.wem	791217814.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Menu\M_Menu_45BPM_12-8_Intro_4M\M_Menu_45BPM_12-8_Intro_4M	
+	797498694	Level0_Cut_02_Trans	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level0_Cut_02_Trans_0ED39DC9.wem	797498694.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level0\Level0_Cut_02_Trans\Level0_Cut_02_Trans	
+	813000897	LevelB_Cut_01	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\LevelB_Cut_01_0ED39DC9.wem	813000897.wem	\Interactive Music Hierarchy\Default Work Unit\Music\LevelB\Cut_01-02\LevelB_Cut_01\LevelB_Cut_01	
+	830802787	Level3_5_Start_A	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level3_5_Start_A_0ED39DC9.wem	830802787.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level3_5\Start\Level3_5_Start_A\Level3_5_Start_A	
+	835969043	Level0_Cut_Start_D	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level0_Cut_Start_D_0ED39DC9.wem	835969043.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level0\Cut_04\Level0_Start_D\Level0_Cut_Start_D	
+	848665484	LevelB_Cut_07	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\LevelB_Cut_07_0ED39DC9.wem	848665484.wem	\Interactive Music Hierarchy\Default Work Unit\Music\LevelB\Cut_07\LevelB_Cut_07\LevelB_Cut_07	
+	852111387	Level1_Cut_01_B_Trans	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_D_Horn_0ED39DC9.wem	852111387.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_D\Level1_Cut_01_B_Trans	
+	861627733	Level1_Cut_01_A_Trans	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_A_Horn_0ED39DC9.wem	861627733.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_A\Level1_Cut_01_A_Trans	
+	864657273	Level5_I_4M1P	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level5_I_4M1P_0ED39DC9.wem	864657273.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level5\Start-10\Level5_I_4M1P\Level5_I_4M1P	
+	874998206	Level2_Cut_02_A1_SYNTH	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level2_Cut_02_A1_SYNTH_0ED39DC9.wem	874998206.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Cut_03\Level2_Cut_02_A1\Level2_Cut_02_A1_SYNTH	
+	882580430	Level5_K_6M1P	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level5_K_6M1P_0ED39DC9.wem	882580430.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level5\Start-10\Level5_K_6M1P\Level5_K_6M1P	
+	889053739	Level3_Cut_01_A	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level3_Cut_01_A_0ED39DC9.wem	889053739.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level3\Cut_01\Level3_Cut_01_A\Level3_Cut_01_A	
+	900864721	Level2_Cut_02_C1	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level2_Cut_02_C1_0ED39DC9.wem	900864721.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Cut_03\Level2_Cut_02_C1\Level2_Cut_02_C1	
+	915074877	Level2_Start_A	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level2_Start_A_0ED39DC9.wem	915074877.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_03\Level2_Start_A\Level2_Start_A	
+	929462574	Level0_Cut_Start_Intro	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level0_Cut_Start_Intro_0ED39DC9.wem	929462574.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level0\Level0_Cut_01_Intro\Level0_Cut_Start_Intro	
+	938438922	Level6_Cut_01_Mel	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level6_Cut_01_C_Mel_0ED39DC9.wem	938438922.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level6\Cut_01\Level6_Cut_01_ALL\Level6_Cut_01_Mel	
+	943463497	Level2_Cut_02_B2	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level2_Cut_02_B2_0ED39DC9.wem	943463497.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Cut_03\Level2_Cut_02_B2\Level2_Cut_02_B2	
+	946338884	Level0_Cut_01_A	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level0_Cut_01_A_0ED39DC9.wem	946338884.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level0\Cut_01-03\Level0_Cut_01_A\Level0_Cut_01_A	
+	958562770	Level5_D_3M1P	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level5_D_3M1P_0ED39DC9.wem	958562770.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level5\Start-10\Level5_D_3M1P\Level5_D_3M1P	
+	965242610	Level6_Cut_01_A_Acc	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level6_Cut_01_D_Acc_0ED39DC9.wem	965242610.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level6\Cut_01\Level6_Cut_01_ALL\Level6_Cut_01_A_Acc	
+	965708890	Level6_Cut_03_Loop	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level6_Cut_03_Loop_0ED39DC9.wem	965708890.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level6\Cut_03\Level6_Cut_03_Loop\Level6_Cut_03_Loop	
+	974653404	Level1_Cut_01_B_Melody	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_D_Flute_0ED39DC9.wem	974653404.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_D\Level1_Cut_01_B_Melody	
+	983082899	Level6_Cut_01_Bass	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level6_Cut_01_D_Bass_0ED39DC9.wem	983082899.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level6\Cut_01\Level6_Cut_01_ALL\Level6_Cut_01_Bass	
+	994215545	Level6_Cut02_Intro	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level6_Cut02_Intro_0ED39DC9.wem	994215545.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level6\Cut_02\Level6_Cut02_Intro\Level6_Cut02_Intro	
+	995493413	Level2_Start_G	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level2_Start_G_0ED39DC9.wem	995493413.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Cut_01-02\Level2_Start_G\Level2_Start_G	
+	1000305907	Level2_Cut_02_B1_SYNTH	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level2_Cut_02_B1_SYNTH_0ED39DC9.wem	1000305907.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Cut_03\Level2_Cut_02_B1\Level2_Cut_02_B1_SYNTH	
+	1006245095	Level2_Start_F	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level2_Start_F_0ED39DC9.wem	1006245095.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Cut_01-02\Level2_Start_F\Level2_Start_F	
+	1013064026	Level1_Cut_Start_Loop	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_Start_Loop_0ED39DC9.wem	1013064026.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Start\Level1_Cut_Start_Loop\Level1_Cut_Start_Loop	
+	1032844684	Level5_C_2M	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level5_C_2M_0ED39DC9.wem	1032844684.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level5\Start-10\Level5_C_2M\Level5_C_2M	
+	1046729257	Level1_Cut_01_B_Melody	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_C_Oboe_0ED39DC9.wem	1046729257.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_C\Level1_Cut_01_B_Melody	
+	1064164852	Level1_Cut_01_A_Melody	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level1_Cut_01_A_Bassoon_0ED39DC9.wem	1064164852.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Cut_01&02\Level1_Cut_01_A\Level1_Cut_01_A_Melody	
+	1072458576	Level3_Start_E	C:\Users\fapoc\Desktop\Trinity_2018-05-31\WwiseProj_Trinity\.cache\Mac\SFX\Level3_Start_E_0ED39DC9.wem	1072458576.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Level3\Cut_01\Level3_Start_E\Level3_Start_E	
+

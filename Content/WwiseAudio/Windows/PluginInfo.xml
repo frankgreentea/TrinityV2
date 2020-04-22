@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PluginInfo Project="Trinity" Platform="Windows" BasePlatform="Windows">
+	<Plugins>
+		<Plugin Name="Wwise Peak Limiter" ID="7208963" DLL="AkPeakLimiter"/>
+		<Plugin Name="Wwise RoomVerb" ID="7733251" DLL="AkRoomVerb"/>
+		<Plugin Name="Wwise Meter" ID="8454147" DLL="AkSoundEngineDLL"/>
+		<Plugin Name="Wwise Recorder" ID="8650755" DLL="AkRecorder"/>
+		<Plugin Name="Wwise Harmonizer" ID="9043971" DLL="AkHarmonizer"/>
+	</Plugins>
+</PluginInfo>
